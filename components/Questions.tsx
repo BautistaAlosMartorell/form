@@ -28,7 +28,7 @@ const Questions = () => {
     {
       id: 2,
       question:
-        "¿Has visto o vivido alguna vez algo que te hizo sentir mal en la escuela? (Por ejemplo, que te molesten o te traten mal)",
+        "¿Has visto o vivido alguna vez algo que te hizo sentir mal en la escuela? (Por ejemplo, que te molesten o te traten mal)?",
       options: ["Si", "No"],
     },
     {
