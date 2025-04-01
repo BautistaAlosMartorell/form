@@ -198,7 +198,7 @@ const Questions = () => {
     };
 
     submitForm();
-  }, [isSubmitted]);
+  }, [isSubmitted, answers]);
 
 
   const confettiConfig = {

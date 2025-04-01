@@ -1,5 +1,4 @@
 import { sqliteTable, integer, text } from "drizzle-orm/sqlite-core";
-import { sql } from "drizzle-orm";
 
 export const respuestas = sqliteTable("respuestas", {
   id: integer("id", { mode: "number" }).primaryKey({ autoIncrement: true }),
@@ -14,5 +13,5 @@ export const respuestas = sqliteTable("respuestas", {
   respuesta9: text("respuesta9"),
   respuesta10: text("respuesta10"),
   respuesta11: text("respuesta11"),
-  createdAt: integer("createdAt", { mode: "timestamp" }).default(sql`CURRENT_TIMESTAMP`),
+  //createdAt: integer("createdAt", { mode: "timestamp" }).default(sql`CURRENT_TIMESTAMP`),
 });
