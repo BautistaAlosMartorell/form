@@ -80,47 +80,6 @@ const Questions = () => {
     {
       id: 7,
       question:
-        "¿Le contaste a algún adulto lo que pasó?",
-      options: [
-        "Sí, denuncié",
-        "No, pero lo consideré",
-        "No, porque no me sentí seguro",
-      ],
-      dependsOn: 2,
-      showIf: "Si",
-    },
-    {
-      id: 8,
-      question:
-        "Si le contaste a un adulto, ¿Cómo reaccionaron? (Por ejemplo, ¿te ayudaron, te escucharon?)",
-      options: [
-        "Muy efectiva",
-        "Efectiva",
-        "Poco efectiva",
-        "No hubo respuesta",
-      ],
-      dependsOn: 7,
-      showIf: "Sí, denuncié",
-    },
-    {
-      id: 9,
-      question:
-        "¿Qué emociones experimentaste durante o después de la situación?",
-      options: ["Tristeza", "Miedo", "Enojo", "Indiferencia", "Otra"],
-      dependsOn: 2,
-      showIf: "Si",
-    },
-    {
-      id: 10,
-      question:
-        "¿Cómo describirías el ambiente general en tu escuela en relación con el respeto entre compañeros?",
-      options: ["Muy respetuoso", "Respetuoso", "Poco respetuoso", "Conflictuado"],
-      dependsOn: 2,
-      showIf: "Si",
-    },
-    {
-      id: 11,
-      question:
         "¿Qué medidas te gustaría que se implementaran para mejorar el ambiente escolar y prevenir futuros incidentes?",
       options: [
         "Charlas de sensibilización",
